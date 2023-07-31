@@ -2,10 +2,16 @@ import React, { useState } from 'react'
 import { Button, Card, CardActions, CardContent, TextField } from "@mui/material"
 import { Box } from "@mui/system"
 import axios from 'axios';
+import { Cookies, useCookies} from "react-cookie";
+import { userUserStore } from '../../../stores';
+
 
 export default function SignIn() {
     const [userId, setUserId] = useState("");
     const [userPassword, setUserPassword] = useState("");
+    const [cookies, setCookies] = useCookies();
+    
+    const {user,setUser} = userUserStore();
 
     const SignInHandler =()=>{
         if(userId.length=== 0 || userPassword.length ===0){
@@ -30,6 +36,14 @@ export default function SignIn() {
 
             //쿠키에 토큰값 넣기
             const {token, exprTime, userMember} = responseData.data;
+            const expires = new Date();
+            expires.setMilliseconds(expires.getMilliseconds+ exprTime);
+
+            setCookies("token", token,{expires});
+            // alert(cookies.token);
+
+            //userMember의 값을 스토어(세션)에 넣기/ 바뀌지 않음
+            setUser(userMember);
 
             
 
@@ -44,6 +58,7 @@ export default function SignIn() {
 
     return (
         <Card sx={{ minWidth: 275, maxWidth: "50vw" }}>
+            {user !=null && (<>{user.userName}</>)}
             <CardContent>
                 <Box>
                     <TextField
