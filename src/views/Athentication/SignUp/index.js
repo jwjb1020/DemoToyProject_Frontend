@@ -26,9 +26,9 @@ export default function SignUp() {
     };
 
     //http://localhost:8080/api/auth/signUp 여기에 data를 포함시켜서 전달
-    axios.
-      post("http://localhost:8080/api/auth/signUp", data)
+    axios.post("http://localhost:8080/api/auth/signUp", data)
       .then((response) => {
+        console.log("성공")
 
       })
       .catch((error) => {
