@@ -5,8 +5,8 @@ import SignIn from './SignIn'
 export default function Athentication() {
   return (
     <>
-      <SignUp/>
-      <SignIn/>
+      <SignUp />
+      <SignIn />
     </>
   )
 }
