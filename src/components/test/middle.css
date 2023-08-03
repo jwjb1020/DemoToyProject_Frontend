@@ -1,0 +1,26 @@
+.div-contents {
+    align-items: center;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    padding: 0px 0px 62px;
+    position: relative;
+  }
+  
+  .div-contents .div-section {
+    flex: 0 0 auto !important;
+  }
+  
+  .div-contents .div-reser-instance {
+    flex: 0 0 auto !important;
+    height: unset !important;
+    width: unset !important;
+  }
+  
+  .div-contents .strong-strong-instance {
+    flex: 0 0 auto !important;
+    left: unset !important;
+    top: unset !important;
+  }
+  

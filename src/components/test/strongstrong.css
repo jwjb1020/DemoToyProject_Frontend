@@ -1,0 +1,269 @@
+.strong-strong {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    left: 360px;
+    max-width: 1200px;
+    position: relative;
+    top: 938px;
+    width: 1200px;
+  }
+  
+  .strong-strong .div-how-title {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: 42.58px 0px 42.42px;
+    position: relative;
+  }
+  
+  .strong-strong .p {
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 170.86px 0px 0px;
+    position: relative;
+    width: 316.86px;
+  }
+  
+  .strong-strong .fesit {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 71.4px;
+    margin-right: -143px;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .strong-strong .div-use-icon {
+    height: 228px;
+    position: relative;
+    width: 704px;
+  }
+  
+  .strong-strong .div-use-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 38px;
+    width: 190px;
+  }
+  
+  .strong-strong .div-use-img {
+    flex: 0 0 auto;
+    position: relative;
+    width: 150px;
+  }
+  
+  .strong-strong .div-use-txt {
+    height: 68px;
+    position: relative;
+    width: 190px;
+  }
+  
+  .strong-strong .heading {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 22px;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  .strong-strong .element {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 18px;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    white-space: nowrap;
+  }
+  
+  .strong-strong .text-wrapper {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 18px;
+    left: -8px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 48px;
+    white-space: nowrap;
+  }
+  
+  .strong-strong .div-right-arr {
+    align-items: flex-start;
+    display: inline-flex;
+    justify-content: center;
+    left: 210px;
+    padding: 3.33px 0px 202.67px;
+    position: absolute;
+    top: 68px;
+  }
+  
+  .strong-strong .right-arr-png {
+    height: 22px;
+    position: relative;
+    width: 27px;
+  }
+  
+  .strong-strong .div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 257px;
+    position: absolute;
+    top: 36px;
+    width: 190px;
+  }
+  
+  .strong-strong .div-use-img-2 {
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 75px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    padding: 27.08px 20px 27.08px;
+    position: relative;
+    width: 150px;
+  }
+  
+  .strong-strong .mingcute-check-fill {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .strong-strong .ri-check-line {
+    height: 20px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .strong-strong .system-uicons {
+    height: 22px;
+    position: relative;
+    width: 22px;
+  }
+  
+  .strong-strong .heading-2 {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 22px;
+    left: 56px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  .strong-strong .element-2 {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 18px;
+    left: 48px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    white-space: nowrap;
+  }
+  
+  .strong-strong .element-3 {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 18px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 48px;
+    white-space: nowrap;
+  }
+  
+  .strong-strong .right-arr-png-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    height: 228px;
+    justify-content: center;
+    left: 467px;
+    padding: 3.33px 0px 202.67px;
+    position: absolute;
+    top: 68px;
+  }
+  
+  .strong-strong .div-use-box-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 514px;
+    position: absolute;
+    top: 36px;
+    width: 190px;
+  }
+  
+  .strong-strong .heading-3 {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 22px;
+    left: 67px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  .strong-strong .element-4 {
+    color: #333333;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 18px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 48px;
+    white-space: nowrap;
+  }
+  

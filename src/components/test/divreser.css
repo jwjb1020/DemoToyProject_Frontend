@@ -1,0 +1,176 @@
+.div-reser {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 3px 3px 20px 4px #d5cfbc59;
+    display: inline-flex;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .div-reser .form {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1516.8px;
+  }
+  
+  .div-reser .div-weight-wrap {
+    align-items: flex-start;
+    background-color: #fbbc05;
+    display: flex;
+    justify-content: center;
+    padding: 27px 30px 28px;
+    position: relative;
+    width: 450px;
+  }
+  
+  .div-reser .input {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: 7px 0px 8px;
+    position: relative;
+  }
+  
+  .div-reser .div-placeholder {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding: 3px 66.25px 3px 65.58px;
+    position: relative;
+    width: 173.83px;
+  }
+  
+  .div-reser .element {
+    color: #212121;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .div-reser .div-start-wrap {
+    align-items: center;
+    background-color: #ffd6a4;
+    border-color: #b1b1b1;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    display: flex;
+    justify-content: center;
+    padding: 27px 1px 28px;
+    position: relative;
+    width: 450px;
+  }
+  
+  .div-reser .element-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding: 3px 71.92px 3px 72.91px;
+    position: relative;
+    width: 173.83px;
+  }
+  
+  .div-reser .text-wrapper {
+    color: #212121;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -56.5px;
+    margin-right: -56.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .div-reser .div-end-wrap {
+    align-items: center;
+    background-color: #e6d4cb;
+    display: flex;
+    justify-content: center;
+    padding: 27px 0px 28px;
+    position: relative;
+    width: 450px;
+  }
+  
+  .div-reser .div-input-box {
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    width: 180px;
+  }
+  
+  .div-reser .div-placeholder-wrapper {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-right: -0.07px;
+    padding: 7px 0px 8px;
+    position: relative;
+  }
+  
+  .div-reser .div-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding: 3px 75.03px 3px 76.04px;
+    position: relative;
+    width: 180.07px;
+  }
+  
+  .div-reser .div-submit-btn-div {
+    align-items: flex-start;
+    background-color: #ffd502;
+    border-radius: 0px 0px 15px 0px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 27.5px 30px;
+    position: relative;
+    transition: all 0.2s ease;
+  }
+  
+  .div-reser .div {
+    background-color: #ffd502;
+    height: 40px;
+    position: relative;
+    width: 64px;
+  }
+  
+  .div-reser .element-2 {
+    color: #212121;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    white-space: nowrap;
+    width: 64px;
+  }
+  
