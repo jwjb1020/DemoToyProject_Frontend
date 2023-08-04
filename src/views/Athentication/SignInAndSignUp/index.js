@@ -7,6 +7,8 @@ import './index.css';
 export default function SignInAddSignUp() {
     
     const [isSignUp, setIsSignUp] = useState(false);
+
+
     const [userId, setUserId] = useState("");
     const [userPassword, setUserPassword] = useState("");
     const [cookies, setCookies] = useCookies();
@@ -40,9 +42,10 @@ export default function SignInAddSignUp() {
                 const responseData = response.data;
                 console.log(responseData);
                 if (!responseData.result) {
-                    alert("로그인에 실패했습니다(da).");
+                    alert(responseData.message);
                     return;
                 }
+                alert(responseData.message);
 
                 const { token, exprTime, userMember } = responseData.data;
                 const expires = new Date();
@@ -66,7 +69,10 @@ export default function SignInAddSignUp() {
 
         axios.post("http://localhost:8080/api/auth/signUp", data,  {withCredentials: true})
             .then((response) => {
-                console.log("성공");
+                const responseData = response.data;
+                alert(responseData.message);
+                console.log(response.data);
+                console.log("연결성공");
             })
             .catch((error) => {
                 console.error(error);
@@ -106,6 +112,8 @@ export default function SignInAddSignUp() {
                         </div>
                     </div>
                 </div>
+
+                
                 <div className="col align-items-center flex-col sign-in">
                     <div className="form-wrapper align-items-center">
                         <div className="form sign-in">

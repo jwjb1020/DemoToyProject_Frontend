@@ -10,8 +10,8 @@ export default function App() {
   return (
     <>
       {/* <Athentication /> */}
-     {/* <MainPage/> */}
-     <SignInAddSignUp/>
+     <MainPage/>
+     {/* <SignInAddSignUp/> */}
     </>
 
 

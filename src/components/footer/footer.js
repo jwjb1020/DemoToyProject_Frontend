@@ -1,40 +1,36 @@
 import React from "react";
+import facebooklogo from "../../images/facebook.svg"
+import gitlogo from "../../images/git.svg"
+import instalogo from "../../images/insta.svg"
 import "./footer.css";
 
-export const Footer = () => {
+export const Footer = ({ className }) => {
   return (
-    <div className="footer">
-    <div className="div-footer-wrap">
-      <div className="div-footer-use">
-        <div className="list">
-          <div className="item">
-            <div className="text-wrapper">개인정보취급방침</div>
-          </div>
-          <div className="div-wrapper">
-            <div className="div">이용약관</div>
-          </div>
-        </div>
+    <div className={`footer ${className}`}>
+      <div className="div-footer-wap">
+        <div className="frame" />
       </div>
-      <div className="div-txt-box">
-        <div className="div-txt-img">
+      <div className="div-text-box">
+        <div className="div-text-img">
           <div className="heading" />
-          <div className="div-sns-img">
-            <div className="link">
-              <img className="img" alt="Facebook png" src="/images/facebook.png" />
+          <div className="div-sns-img" >
+            <img className="img" alt="Brands git" src={gitlogo} />
+            <img className="img" alt="Basil instagram" src={instalogo} />
+            <img className="img" alt="Ant design facebook" src={facebooklogo} />
+          </div>
+          
+        </div>
+        <div className="div-text-info">
+          <div className="group">
+            <p className="copyright-fesit">Copyright 2023. Fesit All rights reserved.</p>
+            <div className="element">
+              <span className="text-wrapper">주소: 부산광역시 </span>
+              <span className="span">부산대학교</span>
             </div>
-            <div className="link">
-              <img className="img" alt="Instra png" src="/images/instra-png.png" />
-            </div>
-            <img className="img" alt="Link blog png" src="/images/link-blog-1-png.png" />
+            <div className="festt">상호: Festt 대표자: 조원준</div>
           </div>
         </div>
-        <div className="div-txt-info">
-          <p className="p">상호 : 주식회사 Fesit 대표자 : 조원준</p>
-          <div className="text-wrapper-2">주소 : 부산광역시 부산대학교</div>
-          <p className="text-wrapper-2">Copyright 2023. Fesit All rights reserved.</p>
-        </div>
       </div>
-    </div>
     </div>
   );
 };
